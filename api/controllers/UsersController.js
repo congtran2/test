@@ -23,7 +23,6 @@ module.exports = {
   getAllUsers: async function (req, res) {
     const users = await UserService.getAllUsers();
 
-    return res.send(users);
   },
 
   getUserById: async function (req, res) {
